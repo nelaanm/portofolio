@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gabarito', cursive;
+    font-family: 'Sarabun', sans-serif;
+}
+
+body{
+    background: #ffffff;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: white;
+    border: 1px solid black;
+    border-bottom-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a{
+    
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+    margin-left: 35px;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: blue;
+}
+
+.home{
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     padding: 0 10%;
+}
+
+.home-content h3{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.home-content h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: blue;
+}
+
+.home-content p{
+    font-size: 16px;
+}
+
+.about{
+    width: 100%;
+    background: blue;
+    display: flex;
+    padding: 78px 0px;
+}
+
+.about-main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-content{
+    flex: 1;
+    padding: 20px 10%;
+    background: whitesmoke;
+    max-width: 900px;
+}
+
+.about-content h3{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.about-content h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.about-content p{
+    padding-top: 10px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.portofolio-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.porto-title h1{
+    color: black;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.card{
+    width: 325px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-content{
+    padding: 20px;
+}
+
+.card-content h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.article{
+    width: 100%;
+    background: blue;
+    display: flex;
+    padding: 78px 0px;
+}
+
+.article-main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.article-content{
+    flex: 1;
+    padding: 20px 10%;
+    background: whitesmoke;
+    max-width: 900px;
+}
+
+.article-content h3{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.article-content h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.article-content p{
+    padding-top: 10px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.footer-content{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content p{
+    color: white;
+}
+
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
